@@ -1,0 +1,651 @@
+constituency,median_age
+Aberafan Maesteg,42
+Aberdeen North,39
+Aberdeen South,37
+Aberdeenshire North and Moray East,46
+Airdrie and Shotts,42
+Aldershot,38
+Aldridge-Brownhills,44
+Alloa and Grangemouth,44
+Altrincham and Sale West,42
+Alyn and Deeside,43
+Amber Valley,44
+Angus and Perthshire Glens,50
+Arbroath and Broughty Ferry,46
+"Argyll, Bute and South Lochaber",51
+Arundel and South Downs,52
+Ashfield,42
+Ashford,39
+Ashton-under-Lyne,38
+Aylesbury,39
+"Ayr, Carrick and Cumnock",48
+Banbury,41
+Bangor Aberconwy,45
+Barking,32
+Barnsley North,41
+Barnsley South,40
+Barrow and Furness,45
+Basildon and Billericay,38
+Basingstoke,39
+Bassetlaw,43
+Bath,35
+Bathgate and Linlithgow,42
+Battersea,32
+Beaconsfield,44
+Beckenham and Penge,40
+Bedford,38
+Belfast East,39
+Belfast North,37
+Belfast South and Mid Down,34
+Belfast West,37
+Bermondsey and Old Southwark,32
+"Berwickshire, Roxburgh and Selkirk",50
+Bethnal Green and Stepney,29
+Beverley and Holderness,51
+Bexhill and Battle,53
+Bexleyheath and Crayford,39
+Bicester and Woodstock,41
+Birkenhead,40
+Birmingham Edgbaston,35
+Birmingham Erdington,36
+Birmingham Hall Green and Moseley,33
+Birmingham Hodge Hill and Solihull North,33
+Birmingham Ladywood,27
+Birmingham Northfield,37
+Birmingham Perry Barr,32
+Birmingham Selly Oak,33
+Birmingham Yardley,33
+Bishop Auckland,47
+Blackburn,34
+Blackley and Middleton South,35
+Blackpool North and Fleetwood,49
+Blackpool South,41
+Blaenau Gwent and Rhymney,42
+Blaydon and Consett,44
+Blyth and Ashington,42
+Bognor Regis and Littlehampton,48
+Bolsover,43
+Bolton North East,38
+Bolton South and Walkden,34
+Bolton West,41
+Bootle,40
+Boston and Skegness,47
+Bournemouth East,41
+Bournemouth West,36
+Bracknell,39
+Bradford East,32
+Bradford South,36
+Bradford West,31
+Braintree,43
+"Brecon, Radnor and Cwm Tawe",50
+Brent East,35
+Brent West,33
+Brentford and Isleworth,37
+Brentwood and Ongar,42
+Bridgend,44
+Bridgwater,43
+Bridlington and The Wolds,52
+Brigg and Immingham,48
+Brighton Kemptown and Peacehaven,40
+Brighton Pavilion,34
+Bristol Central,27
+Bristol East,35
+Bristol North East,36
+Bristol North West,36
+Bristol South,34
+Broadland and Fakenham,49
+Bromley and Biggin Hill,42
+Bromsgrove,45
+Broxbourne,40
+Broxtowe,41
+Buckingham and Bletchley,40
+Burnley,38
+Burton and Uttoxeter,40
+Bury North,41
+Bury South,37
+Bury St Edmunds and Stowmarket,43
+Caerfyrddin,49
+Caerphilly,42
+"Caithness, Sutherland and Easter Ross",50
+Calder Valley,46
+Camborne and Redruth,44
+Cambridge,31
+Cannock Chase,42
+Canterbury,38
+Cardiff East,33
+Cardiff North,40
+Cardiff South and Penarth,31
+Cardiff West,38
+Carlisle,43
+Carshalton and Wallington,39
+Castle Point,46
+Central Ayrshire,48
+Central Devon,50
+Central Suffolk and North Ipswich,46
+Ceredigion Preseli,48
+Chatham and Aylesford,38
+Cheadle,44
+Chelmsford,39
+Chelsea and Fulham,35
+Cheltenham,40
+Chesham and Amersham,44
+Chester North and Neston,41
+Chester South and Eddisbury,48
+Chesterfield,44
+Chichester,46
+Chingford and Woodford Green,40
+Chippenham,42
+Chipping Barnet,41
+Chorley,43
+Christchurch,55
+Cities of London and Westminster,35
+City of Durham,38
+Clacton,52
+Clapham and Brixton Hill,31
+Clwyd East,49
+Clwyd North,46
+Coatbridge and Bellshill,42
+Colchester,36
+Colne Valley,44
+Congleton,46
+Corby and East Northamptonshire,40
+Coventry East,35
+Coventry North West,37
+Coventry South,30
+Cowdenbeath and Kirkcaldy,45
+Cramlington and Killingworth,43
+Crawley,37
+Crewe and Nantwich,40
+Croydon East,38
+Croydon South,40
+Croydon West,34
+Cumbernauld and Kirkintilloch,43
+Dagenham and Rainham,35
+Darlington,42
+Dartford,36
+Daventry,44
+Derby North,37
+Derby South,35
+Derbyshire Dales,51
+Dewsbury and Batley,35
+Didcot and Wantage,39
+Doncaster Central,39
+Doncaster East and the Isle of Axholme,44
+Doncaster North,41
+Dorking and Horley,45
+Dover and Deal,45
+Droitwich and Evesham,46
+Dudley,38
+Dulwich and West Norwood,35
+Dumfries and Galloway,51
+"Dumfriesshire, Clydesdale and Tweeddale",51
+Dundee Central,36
+Dunfermline and Dollar,43
+Dunstable and Leighton Buzzard,38
+Dwyfor Meirionnydd,48
+Ealing Central and Acton,35
+Ealing North,37
+Ealing Southall,36
+Earley and Woodley,38
+Easington,43
+East Antrim,44
+East Grinstead and Uckfield,45
+East Ham,30
+East Hampshire,48
+East Kilbride and Strathaven,43
+East Londonderry,43
+East Renfrewshire,44
+East Surrey,43
+East Thanet,43
+East Wiltshire,40
+East Worthing and Shoreham,45
+Eastbourne,45
+Eastleigh,42
+Edinburgh East and Musselburgh,34
+Edinburgh North and Leith,36
+Edinburgh South,38
+Edinburgh South West,35
+Edinburgh West,43
+Edmonton and Winchmore Hill,37
+Ellesmere Port and Bromborough,40
+Eltham and Chislehurst,39
+Ely and East Cambridgeshire,43
+Enfield North,36
+Epping Forest,41
+Epsom and Ewell,42
+Erewash,42
+Erith and Thamesmead,35
+Esher and Walton,42
+Exeter,33
+Exmouth and Exeter East,43
+Falkirk,43
+Fareham and Waterlooville,46
+Farnham and Bordon,44
+Faversham and Mid Kent,42
+Feltham and Heston,35
+Fermanagh and South Tyrone,40
+Filton and Bradley Stoke,35
+Finchley and Golders Green,38
+Folkestone and Hythe,46
+Forest of Dean,48
+Foyle,39
+Frome and East Somerset,45
+Fylde,51
+Gainsborough,48
+Gateshead Central and Whickham,39
+Gedling,43
+Gillingham and Rainham,39
+Glasgow East,35
+Glasgow North,30
+Glasgow North East,35
+Glasgow South,37
+Glasgow South West,37
+Glasgow West,36
+Glastonbury and Somerton,49
+Glenrothes and Mid Fife,44
+Gloucester,38
+Godalming and Ash,44
+Goole and Pocklington,46
+Gordon and Buchan,45
+Gorton and Denton,35
+Gosport,45
+Gower,46
+Grantham and Bourne,45
+Gravesham,38
+Great Grimsby and Cleethorpes,40
+Great Yarmouth,46
+Greenwich and Woolwich,34
+Guildford,37
+Hackney North and Stoke Newington,32
+Hackney South and Shoreditch,32
+Halesowen,40
+Halifax,39
+Hamble Valley,42
+Hamilton and Clyde Valley,43
+Hammersmith and Chiswick,36
+Hampstead and Highgate,37
+"Harborough, Oadby and Wigston",42
+Harlow,38
+Harpenden and Berkhamsted,44
+Harrogate and Knaresborough,45
+Harrow East,38
+Harrow West,35
+Hartlepool,41
+Harwich and North Essex,46
+Hastings and Rye,45
+Havant,45
+Hayes and Harlington,33
+Hazel Grove,44
+Hemel Hempstead,38
+Hendon,35
+Henley and Thame,46
+Hereford and South Herefordshire,45
+Herne Bay and Sandwich,49
+Hertford and Stortford,41
+Hertsmere,42
+Hexham,50
+Heywood and Middleton North,38
+High Peak,46
+Hinckley and Bosworth,44
+Hitchin,40
+Holborn and St Pancras,31
+Honiton and Sidmouth,53
+Hornchurch and Upminster,40
+Hornsey and Friern Barnet,38
+Horsham,43
+Houghton and Sunderland South,42
+Hove and Portslade,40
+Huddersfield,37
+Huntingdon,42
+Hyndburn,39
+Ilford North,36
+Ilford South,32
+Inverclyde and Renfrewshire West,46
+"Inverness, Skye and West Ross-shire",45
+Ipswich,38
+Isle of Wight East,54
+Isle of Wight West,49
+Islington North,33
+Islington South and Finsbury,32
+Jarrow and Gateshead East,41
+Keighley and Ilkley,42
+Kenilworth and Southam,45
+Kensington and Bayswater,37
+Kettering,40
+Kilmarnock and Loudoun,45
+Kingston and Surbiton,37
+Kingston upon Hull East,38
+Kingston upon Hull North and Cottingham,36
+Kingston upon Hull West and Haltemprice,40
+Kingswinford and South Staffordshire,48
+Knowsley,38
+Lagan Valley,41
+Lancaster and Wyre,39
+Leeds Central and Headingley,24
+Leeds East,37
+Leeds North East,39
+Leeds North West,43
+Leeds South,32
+Leeds South West and Morley,40
+Leeds West and Pudsey,37
+Leicester East,36
+Leicester South,29
+Leicester West,33
+Leigh and Atherton,40
+Lewes,50
+Lewisham East,37
+Lewisham North,34
+Lewisham West and East Dulwich,36
+Leyton and Wanstead,36
+Lichfield,46
+Lincoln,35
+Liverpool Garston,41
+Liverpool Riverside,28
+Liverpool Walton,38
+Liverpool Wavertree,33
+Liverpool West Derby,39
+Livingston,41
+Llanelli,44
+Lothian East,44
+Loughborough,36
+Louth and Horncastle,54
+Lowestoft,48
+Luton North,35
+Luton South and South Bedfordshire,33
+Macclesfield,46
+Maidenhead,41
+Maidstone and Malling,39
+Makerfield,43
+Maldon,47
+Manchester Central,29
+Manchester Rusholme,25
+Manchester Withington,32
+Mansfield,42
+Melksham and Devizes,48
+Melton and Syston,45
+Meriden and Solihull East,42
+Merthyr Tydfil and Aberdare,41
+Mid Bedfordshire,40
+Mid Buckinghamshire,44
+Mid Cheshire,41
+Mid Derbyshire,47
+Mid Dorset and North Poole,48
+Mid Dunbartonshire,47
+Mid Leicestershire,43
+Mid Norfolk,48
+Mid Sussex,42
+Mid Ulster,38
+Mid and South Pembrokeshire,48
+Middlesbrough South and East Cleveland,44
+Middlesbrough and Thornaby East,34
+Midlothian,41
+Milton Keynes Central,36
+Milton Keynes North,40
+Mitcham and Morden,37
+Monmouthshire,49
+Montgomeryshire and Glyndwr,47
+"Moray West, Nairn and Strathspey",47
+Morecambe and Lunesdale,48
+"Motherwell, Wishaw and Carluke",42
+Na h-Eileanan an Iar,51
+Neath and Swansea East,41
+New Forest East,49
+New Forest West,55
+Newark,46
+Newbury,42
+Newcastle upon Tyne Central and West,32
+Newcastle upon Tyne East and Wallsend,35
+Newcastle upon Tyne North,36
+Newcastle-under-Lyme,41
+Newport East,37
+Newport West and Islwyn,42
+Newry and Armagh,39
+Newton Abbot,49
+Newton Aycliffe and Spennymoor,43
+Normanton and Hemsworth,41
+North Antrim,42
+North Ayrshire and Arran,49
+North Bedfordshire,42
+North Cornwall,49
+North Cotswolds,46
+North Devon,48
+North Dorset,50
+North Down,45
+North Durham,45
+North East Cambridgeshire,44
+North East Derbyshire,46
+North East Fife,46
+North East Hampshire,44
+North East Hertfordshire,43
+North East Somerset and Hanham,43
+North Herefordshire,52
+North Norfolk,56
+North Northumberland,53
+North Shropshire,48
+North Somerset,47
+North Warwickshire and Bedworth,43
+North West Cambridgeshire,38
+North West Essex,43
+North West Hampshire,40
+North West Leicestershire,42
+North West Norfolk,48
+Northampton North,36
+Northampton South,38
+Norwich North,41
+Norwich South,34
+Nottingham East,29
+Nottingham North and Kimberley,37
+Nottingham South,27
+Nuneaton,39
+Old Bexley and Sidcup,41
+Oldham East and Saddleworth,38
+"Oldham West, Chadderton and Royton",35
+Orkney and Shetland,47
+Orpington,42
+Ossett and Denby Dale,45
+Oxford East,33
+Oxford West and Abingdon,35
+Paisley and Renfrewshire North,41
+Paisley and Renfrewshire South,42
+Peckham,33
+Pendle and Clitheroe,41
+Penistone and Stocksbridge,48
+Penrith and Solway,50
+Perth and Kinross-shire,46
+Peterborough,36
+Plymouth Moor View,41
+Plymouth Sutton and Devonport,35
+"Pontefract, Castleford and Knottingley",39
+Pontypridd,40
+Poole,44
+Poplar and Limehouse,30
+Portsmouth North,38
+Portsmouth South,33
+Preston,33
+Putney,34
+Queen's Park and Maida Vale,35
+Rawmarsh and Conisbrough,41
+Rayleigh and Wickford,44
+Reading Central,34
+Reading West and Mid Berkshire,42
+Redcar,44
+Redditch,42
+Reigate,42
+Rhondda and Ogmore,41
+Ribble Valley,44
+Richmond Park,41
+Richmond and Northallerton,50
+Rochdale,36
+Rochester and Strood,38
+Romford,38
+Romsey and Southampton North,43
+Rossendale and Darwen,42
+Rother Valley,44
+Rotherham,38
+Rugby,40
+"Ruislip, Northwood and Pinner",42
+Runcorn and Helsby,43
+Runnymede and Weybridge,41
+Rushcliffe,43
+Rutherglen,43
+Rutland and Stamford,47
+Salford,30
+Salisbury,47
+Scarborough and Whitby,49
+Scunthorpe,41
+Sefton Central,49
+Selby,43
+Sevenoaks,44
+Sheffield Brightside and Hillsborough,35
+Sheffield Central,26
+Sheffield Hallam,42
+Sheffield Heeley,38
+Sheffield South East,40
+Sherwood Forest,42
+Shipley,45
+Shrewsbury,44
+Sittingbourne and Sheppey,40
+Skipton and Ripon,51
+Sleaford and North Hykeham,45
+Slough,34
+Smethwick,35
+Solihull West and Shirley,43
+South Antrim,40
+South Basildon and East Thurrock,38
+South Cambridgeshire,43
+South Cotswolds,48
+South Derbyshire,41
+South Devon,52
+South Dorset,50
+South Down,40
+South East Cornwall,52
+South Holland and The Deepings,46
+South Leicestershire,43
+South Norfolk,43
+South Northamptonshire,44
+South Ribble,45
+South Shields,44
+South Shropshire,54
+South Suffolk,49
+South West Devon,47
+South West Hertfordshire,42
+South West Norfolk,45
+South West Wiltshire,44
+Southampton Itchen,35
+Southampton Test,34
+Southend East and Rochford,40
+Southend West and Leigh,42
+Southgate and Wood Green,39
+Southport,48
+Spelthorne,40
+Spen Valley,42
+St Albans,41
+St Austell and Newquay,45
+St Helens North,42
+St Helens South and Whiston,41
+St Ives,51
+St Neots and Mid Cambridgeshire,40
+Stafford,44
+Staffordshire Moorlands,50
+Stalybridge and Hyde,40
+Stevenage,39
+Stirling and Strathallan,44
+Stockport,38
+Stockton North,39
+Stockton West,44
+Stoke-on-Trent Central,35
+Stoke-on-Trent North,39
+Stoke-on-Trent South,43
+"Stone, Great Wyrley and Penkridge",46
+Stourbridge,42
+Strangford,44
+Stratford and Bow,31
+Stratford-on-Avon,49
+Streatham and Croydon North,36
+Stretford and Urmston,38
+Stroud,47
+Suffolk Coastal,52
+Sunderland Central,40
+Surrey Heath,42
+Sussex Weald,48
+Sutton Coldfield,45
+Sutton and Cheam,40
+Swansea West,35
+Swindon North,39
+Swindon South,39
+Tamworth,42
+Tatton,46
+Taunton and Wellington,43
+Telford,38
+Tewkesbury,43
+The Wrekin,42
+Thirsk and Malton,51
+Thornbury and Yate,44
+Thurrock,35
+Tipton and Wednesbury,37
+Tiverton and Minehead,51
+Tonbridge,44
+Tooting,32
+Torbay,48
+Torfaen,42
+Torridge and Tavistock,53
+Tottenham,33
+Truro and Falmouth,43
+Tunbridge Wells,42
+Twickenham,42
+Tynemouth,45
+Upper Bann,39
+Uxbridge and South Ruislip,36
+Vale of Glamorgan,43
+Vauxhall and Camberwell Green,32
+Wakefield and Rothwell,39
+Wallasey,43
+Walsall and Bloxwich,34
+Walthamstow,35
+Warrington North,42
+Warrington South,42
+Warwick and Leamington,38
+Washington and Gateshead South,43
+Watford,37
+Waveney Valley,52
+Weald of Kent,47
+Wellingborough and Rushden,40
+Wells and Mendip Hills,50
+Welwyn Hatfield,37
+West Aberdeenshire and Kincardine,46
+West Bromwich,37
+West Dorset,54
+West Dunbartonshire,43
+West Ham and Beckton,32
+West Lancashire,42
+West Suffolk,40
+West Tyrone,40
+West Worcestershire,51
+Westmorland and Lonsdale,52
+Weston-super-Mare,42
+Wetherby and Easingwold,49
+Whitehaven and Workington,45
+Widnes and Halewood,41
+Wigan,41
+Wimbledon,39
+Winchester,43
+Windsor,40
+Wirral West,50
+Witham,43
+Witney,41
+Woking,40
+Wokingham,42
+Wolverhampton North East,37
+Wolverhampton South East,35
+Wolverhampton West,39
+Worcester,39
+Worsley and Eccles,38
+Worthing West,48
+Wrexham,42
+Wycombe,37
+Wyre Forest,47
+Wythenshawe and Sale East,37
+Yeovil,45
+Ynys Mï¿½n,49
+York Central,32
+York Outer,47

@@ -1,0 +1,651 @@
+constituency,foreign_born_pct
+Aberafan Maesteg,3.3811771
+Aberdeen North,19.1740887
+Aberdeen South,22.9605917
+Aberdeenshire North & Moray East,7.2325461
+Airdrie & Shotts,4.513913
+Aldershot,22.1781303
+Aldridge-Brownhills,6.3352523
+Alloa & Grangemouth,5.3752968
+Altrincham & Sale West,14.5894052
+Alyn & Deeside,7.8039105
+Amber Valley,3.5630601
+Angus & Perthshire Glens,6.5904902000000005
+Arbroath & Broughty Ferry,6.2560619
+"Argyll, Bute & South Lochaber",6.482336
+Arundel & South Downs,8.0499095
+Ashfield,5.9718512
+Ashford,15.241516100000002
+Ashton-under-Lyne,14.607420900000001
+Aylesbury,18.2251108
+"Ayr, Carrick & Cumnock",3.9842670999999994
+Banbury,15.9870507
+Bangor Aberconwy,7.1832131
+Barking,43.3585582
+Barnsley North,6.6959222
+Barnsley South,7.2458924
+Barrow & Furness,3.8009871
+Basildon & Billericay,12.1308335
+Basingstoke,17.7932023
+Bassetlaw,7.1724523
+Bath,17.4431748
+Bathgate & Linlithgow,7.6927228
+Battersea,39.764085400000006
+Beaconsfield,15.9792714
+Beckenham & Penge,23.3389733
+Bedford,28.1095747
+Belfast East,10.7858487
+Belfast North,8.899068
+Belfast South & Mid Down,16.887544199999997
+Belfast West,5.7619919
+Bermondsey & Old Southwark,45.476920099999994
+"Berwickshire, Roxburgh & Selkirk",5.8155027
+Bethnal Green & Stepney,46.4071794
+Beverley & Holderness,3.881398
+Bexhill & Battle,7.3177828
+Bexleyheath & Crayford,19.2863747
+Bicester & Woodstock,16.386584199999998
+Birkenhead,7.0368873
+Birmingham Edgbaston,28.8823226
+Birmingham Erdington,21.365696699999997
+Birmingham Hall Green & Moseley,32.07205999999999
+Birmingham Hodge Hill & Solihull North,21.613250100000002
+Birmingham Ladywood,43.5116077
+Birmingham Northfield,13.3338355
+Birmingham Perry Barr,38.0267797
+Birmingham Selly Oak,17.6426497
+Birmingham Yardley,26.8162702
+Bishop Auckland,3.099869
+Blackburn,22.8576955
+Blackley & Middleton South,26.901962400000002
+Blackpool North & Fleetwood,4.198067099999999
+Blackpool South,8.804447600000001
+Blaenau Gwent & Rhymney,2.8853364
+Blaydon & Consett,3.4646410000000003
+Blyth & Ashington,3.125849
+Bognor Regis & Littlehampton,12.0795526
+Bolsover,5.1914311
+Bolton North East,15.243442400000001
+Bolton South & Walkden,22.8185788
+Bolton West,9.9547504
+Bootle,6.507113
+Boston & Skegness,16.2506913
+Bournemouth East,21.247917
+Bournemouth West,19.497773499999997
+Bracknell,17.7367968
+Bradford East,25.4259002
+Bradford South,14.482959299999997
+Bradford West,32.488677700000004
+Braintree,7.4642337
+"Brecon, Radnor & Cwm Tawe",4.4123746
+Brent East,53.4147615
+Brent West,62.2243726
+Brentford & Isleworth,49.27863919999999
+Brentwood & Ongar,10.111394
+Bridgend,5.290540200000001
+Bridgwater,9.4378607
+Bridlington & The Wolds,3.6536914000000005
+Brigg & Immingham,4.4459363000000005
+Brighton Kemptown & Peacehaven,17.0057337
+Brighton Pavilion,19.8811198
+Bristol Central,24.3371216
+Bristol East,20.0088835
+Bristol North East,16.9969887
+Bristol North West,16.9625518
+Bristol South,12.5924825
+Broadland & Fakenham,4.698003000000001
+Bromley & Biggin Hill,19.3454818
+Bromsgrove,4.8408975
+Broxbourne,17.007006099999998
+Broxtowe,10.6712689
+Buckingham & Bletchley,18.1528517
+Burnley,14.2993129
+Burton & Uttoxeter,14.993957199999999
+Bury North,11.911337
+Bury South,14.4795838
+Bury St Edmunds & Stowmarket,10.1351005
+Caerfyrddin,4.786258699999999
+Caerphilly,3.1910101999999996
+"Caithness, Sutherland & Easter Ross",5.4916203999999995
+Calder Valley,4.3846457
+Camborne & Redruth,4.9909183
+Cambridge,38.215833599999996
+Cannock Chase,3.5840784
+Canterbury,16.0484672
+Cardiff East,18.4278747
+Cardiff North,10.065111900000002
+Cardiff South & Penarth,20.447766
+Cardiff West,11.7063714
+Carlisle,6.9430768
+Carshalton & Wallington,24.7448305
+Castle Point,4.8242253
+Central Ayrshire,3.516719
+Central Devon,5.712549800000001
+Central Suffolk & North Ipswich,7.7883094999999996
+Ceredigion Preseli,6.4347491
+Chatham & Aylesford,13.014847000000001
+Cheadle,11.116164600000001
+Chelmsford,15.207153700000001
+Chelsea & Fulham,46.493553
+Cheltenham,14.639195599999999
+Chesham & Amersham,15.810320299999999
+Chester North & Neston,10.332147599999999
+Chester South & Eddisbury,6.0777247
+Chesterfield,5.0748004
+Chichester,10.4854716
+Chingford & Woodford Green,27.5110633
+Chippenham,9.3473849
+Chipping Barnet,33.9802565
+Chorley,5.2622301
+Christchurch,6.7821362
+Cities of London & Westminster,56.74142520000001
+City of Durham,9.391037099999998
+Clacton,5.1134520000000006
+Clapham & Brixton Hill,36.9855766
+Clwyd East,4.0229925
+Clwyd North,5.1769698
+Coatbridge & Bellshill,4.3299233
+Colchester,18.4762954
+Colne Valley,5.5210235
+Congleton,4.2750575
+Corby & East Northamptonshire,16.7414038
+Coventry East,30.5736538
+Coventry North West,21.5215001
+Coventry South,30.967633100000004
+Cowdenbeath & Kirkcaldy,8.1146521
+Cramlington & Killingworth,3.7975233999999998
+Crawley,26.797325299999997
+Crewe & Nantwich,13.5786443
+Croydon East,28.6327007
+Croydon South,25.784056099999997
+Croydon West,45.4066163
+Cumbernauld & Kirkintilloch,4.3525108999999995
+Dagenham & Rainham,31.6846364
+Darlington,8.2372391
+Dartford,20.616781
+Daventry,9.1552546
+Derby North,15.5899636
+Derby South,27.640266800000003
+Derbyshire Dales,3.8901875
+Dewsbury & Batley,19.0843878
+Didcot & Wantage,12.7093077
+Doncaster Central,18.3444429
+Doncaster East & the Isle of Axholme,5.5598502000000005
+Doncaster North,5.6237527
+Dorking & Horley,12.538632500000002
+Dover & Deal,8.688684899999998
+Droitwich & Evesham,9.219833999999999
+Dudley,10.5885479
+Dulwich & West Norwood,33.2255489
+Dumfries & Galloway,4.4526784
+"Dumfriesshire, Clydesdale & Tweeddale",4.3202497
+Dundee Central,15.391492600000001
+Dunfermline & Dollar,7.7111924
+Dunstable & Leighton Buzzard,15.5283408
+Dwyfor Meirionnydd,3.4303656
+Ealing Central & Acton,49.4245502
+Ealing North,49.3654433
+Ealing Southall,53.0187769
+Earley & Woodley,24.9613797
+Easington,2.7024953
+East Antrim,4.7417042
+East Grinstead & Uckfield,10.2639822
+East Ham,55.5816553
+East Hampshire,8.7121428
+East Kilbride & Strathaven,4.3880737000000005
+East Londonderry,5.3949363
+East Renfrewshire,8.0729055
+East Surrey,11.4092146
+East Thanet,10.8409531
+East Wiltshire,11.853395899999999
+East Worthing & Shoreham,9.440928900000001
+Eastbourne,15.197769700000002
+Eastleigh,10.6189185
+Edinburgh East & Musselburgh,25.7699389
+Edinburgh North & Leith,27.3893475
+Edinburgh South,23.1733975
+Edinburgh South West,23.814992800000002
+Edinburgh West,14.85312
+Edmonton & Winchmore Hill,44.2450238
+Ellesmere Port & Bromborough,6.0800083
+Eltham & Chislehurst,25.7985284
+Ely & East Cambridgeshire,12.7371642
+Enfield North,35.0627365
+Epping Forest,15.985571799999999
+Epsom & Ewell,20.0193809
+Erewash,5.5887044999999995
+Erith & Thamesmead,39.5371366
+Esher & Walton,19.8266821
+Exeter,16.3572356
+Exmouth & Exeter East,7.4197433
+Falkirk,6.0330978
+Fareham & Waterlooville,6.5515948
+Farnham & Bordon,12.646295600000002
+Faversham & Mid Kent,8.662365099999999
+Feltham & Heston,50.3814255
+Fermanagh & South Tyrone,14.8797498
+Filton & Bradley Stoke,16.8503369
+Finchley & Golders Green,44.9869713
+Folkestone & Hythe,11.1232314
+Forest of Dean,5.1301888
+Foyle,7.4460762
+Frome & East Somerset,6.621133799999999
+Fylde,5.714915199999999
+Gainsborough,4.922552
+Gateshead Central & Whickham,10.1318403
+Gedling,8.1130112
+Gillingham & Rainham,13.724573900000001
+Glasgow East,20.8123002
+Glasgow North,26.851618700000003
+Glasgow North East,17.548229
+Glasgow South,13.6712036
+Glasgow South West,18.0976359
+Glasgow West,18.147997999999998
+Glastonbury & Somerton,6.9744659
+Glenrothes & Mid Fife,4.8937048
+Gloucester,15.1909879
+Godalming & Ash,12.156498700000002
+Goole & Pocklington,7.058283600000001
+Gordon & Buchan,5.9639185999999995
+Gorton & Denton,28.8945893
+Gosport,7.1326668
+Gower,5.2095846
+Grantham & Bourne,9.695063900000001
+Gravesham,19.240460999999996
+Great Grimsby & Cleethorpes,7.3621005
+Great Yarmouth,9.772364999999999
+Greenwich & Woolwich,41.1897495
+Guildford,22.0611506
+Hackney North & Stoke Newington,35.975464900000006
+Hackney South & Shoreditch,42.6568344
+Halesowen,8.139768499999999
+Halifax,12.3204184
+Hamble Valley,7.496754699999999
+Hamilton & Clyde Valley,5.3169948
+Hammersmith & Chiswick,45.2060601
+Hampstead & Highgate,44.843422499999996
+"Harborough, Oadby & Wigston",14.346257499999998
+Harlow,16.651418
+Harpenden & Berkhamsted,11.075144100000001
+Harrogate & Knaresborough,10.1627152
+Harrow East,53.4664096
+Harrow West,53.7636201
+Hartlepool,3.9686977999999997
+Harwich & North Essex,7.2859964
+Hastings & Rye,10.7862789
+Havant,6.5550763
+Hayes & Harlington,48.402774199999996
+Hazel Grove,5.3914461000000005
+Hemel Hempstead,16.7354695
+Hendon,49.638603599999996
+Henley & Thame,11.4811288
+Hereford & South Herefordshire,10.3308035
+Herne Bay & Sandwich,6.369883700000001
+Hertford & Stortford,12.741977900000002
+Hertsmere,22.2647132
+Hexham,4.2781636
+Heywood & Middleton North,12.6022016
+High Peak,4.1614722
+Hinckley & Bosworth,6.1251339
+Hitchin,10.3056019
+Holborn & St Pancras,44.8321545
+Honiton & Sidmouth,6.256832900000001
+Hornchurch & Upminster,16.2729988
+Hornsey & Friern Barnet,36.2282119
+Horsham,11.6039543
+Houghton & Sunderland South,2.683023
+Hove & Portslade,19.8176254
+Huddersfield,20.210577
+Huntingdon,14.377933200000001
+Hyndburn,9.0514548
+Ilford North,44.6147866
+Ilford South,49.990247499999995
+Inverclyde & Renfrewshire West,3.6164166
+"Inverness, Skye & West Ross-shire",9.259258200000001
+Ipswich,19.1610636
+Isle of Wight East,6.138291499999999
+Isle of Wight West,6.122857600000001
+Islington North,38.1443123
+Islington South & Finsbury,41.6181227
+Jarrow & Gateshead East,4.413578599999999
+Keighley & Ilkley,10.135340399999999
+Kenilworth & Southam,8.759513199999999
+Kensington & Bayswater,55.726654200000006
+Kettering,13.9139544
+Kilmarnock & Loudoun,3.383951
+Kingston & Surbiton,32.0780442
+Kingston upon Hull East,6.6332271
+Kingston upon Hull North & Cottingham,16.041298799999996
+Kingston upon Hull West & Haltemprice,11.819192000000001
+Kingswinford & South Staffordshire,3.156835
+Knowsley,5.1817504
+Lagan Valley,7.017256999999999
+Lancaster & Wyre,10.559861900000001
+Leeds Central & Headingley,23.296028000000003
+Leeds East,17.8364296
+Leeds North East,20.718675799999996
+Leeds North West,6.982886799999999
+Leeds South,26.859064999999998
+Leeds South West & Morley,7.6596993
+Leeds West & Pudsey,12.4170214
+Leicester East,50.46810550000001
+Leicester South,40.0094638
+Leicester West,32.8142603
+Leigh & Atherton,6.9896016
+Lewes,8.0871022
+Lewisham East,35.1508216
+Lewisham North,39.7990322
+Lewisham West & East Dulwich,28.117767999999998
+Leyton & Wanstead,40.9714043
+Lichfield,4.338309199999999
+Lincoln,14.064017099999997
+Liverpool Garston,7.997298499999999
+Liverpool Riverside,24.3466141
+Liverpool Walton,9.4022595
+Liverpool Wavertree,17.8665372
+Liverpool West Derby,9.926738
+Livingston,10.0127654
+Llanelli,5.3357686
+Lothian East,6.7246742
+Loughborough,15.213707000000001
+Louth & Horncastle,3.793485
+Lowestoft,4.4810494
+Luton North,33.2453702
+Luton South & South Bedfordshire,39.8934151
+Macclesfield,6.6842133
+Maidenhead,20.4490856
+Maidstone & Malling,16.943026
+Makerfield,4.2352726
+Maldon,5.0888968
+Manchester Central,32.0516554
+Manchester Rusholme,39.9238204
+Manchester Withington,20.6279468
+Mansfield,10.740350900000001
+Melksham & Devizes,7.507378300000001
+Melton & Syston,8.6577474
+Meriden & Solihull East,8.901835700000001
+Merthyr Tydfil & Aberdare,4.5127053
+Mid & South Pembrokeshire,4.904924
+Mid Bedfordshire,9.8577221
+Mid Buckinghamshire,10.4232919
+Mid Cheshire,6.2335562
+Mid Derbyshire,4.8993553
+Mid Dorset & North Poole,6.276469199999999
+Mid Dunbartonshire,6.5616851
+Mid Leicestershire,11.5026616
+Mid Norfolk,7.6100311000000005
+Mid Sussex,12.048535
+Mid Ulster,7.2015832
+Middlesbrough & Thornaby East,15.204807200000001
+Middlesbrough South & East Cleveland,3.2182545
+Midlothian,7.7153495
+Milton Keynes Central,32.3060361
+Milton Keynes North,18.5180871
+Mitcham & Morden,42.65629920000001
+Monmouthshire,5.5025597
+Montgomeryshire & Glyndwr,4.644754799999999
+"Moray West, Nairn & Strathspey",7.180816200000001
+Morecambe & Lunesdale,5.2590381
+"Motherwell, Wishaw & Carluke",6.2439437
+Na h-Eileanan an Iar,3.7732085
+Neath & Swansea East,5.2196802
+New Forest East,6.1265529
+New Forest West,7.6934083
+Newark,7.710233499999999
+Newbury,12.5805468
+Newcastle upon Tyne Central & West,22.503654100000002
+Newcastle upon Tyne East & Wallsend,11.8190197
+Newcastle upon Tyne North,11.999874
+Newcastle-under-Lyme,7.9522474999999995
+Newport East,13.7611867
+Newport West & Islwyn,5.7026995
+Newry & Armagh,12.661787899999998
+Newton Abbot,5.1169575
+Newton Aycliffe & Spennymoor,3.6277329999999997
+Normanton & Hemsworth,6.5351595
+North Antrim,6.9643864
+North Ayrshire & Arran,3.5086101000000003
+North Bedfordshire,9.808233099999999
+North Cornwall,5.1734633
+North Cotswolds,8.49972
+North Devon,5.4875195
+North Dorset,7.1303036
+North Down,6.759965900000001
+North Durham,3.0526551
+North East Cambridgeshire,12.4631985
+North East Derbyshire,3.1650884000000006
+North East Fife,11.2923787
+North East Hampshire,11.1203506
+North East Hertfordshire,9.3756593
+North East Somerset & Hanham,5.729621799999999
+North Herefordshire,6.7409468
+North Norfolk,4.415989
+North Northumberland,3.7557156000000003
+North Shropshire,6.1449432
+North Somerset,7.201344199999999
+North Warwickshire & Bedworth,6.9384557
+North West Cambridgeshire,18.9631126
+North West Essex,9.218563
+North West Hampshire,12.819483000000002
+North West Leicestershire,6.2716077
+North West Norfolk,11.5665583
+Northampton North,30.555734899999997
+Northampton South,22.2515423
+Norwich North,11.0921403
+Norwich South,17.6819386
+Nottingham East,30.7930178
+Nottingham North & Kimberley,17.9683591
+Nottingham South,21.6493614
+Nuneaton,11.4904882
+Old Bexley & Sidcup,16.0813706
+Oldham East & Saddleworth,14.7881215
+"Oldham West, Chadderton & Royton",20.176329000000003
+Orkney & Shetland,4.7776709
+Orpington,18.107614899999998
+Ossett & Denby Dale,5.5008685
+Oxford East,34.4709289
+Oxford West & Abingdon,25.994329
+Paisley & Renfrewshire North,8.306675599999998
+Paisley & Renfrewshire South,6.9872364
+Peckham,42.4439613
+Pendle & Clitheroe,13.406048700000001
+Penistone & Stocksbridge,3.2844902
+Penrith & Solway,4.3632624
+Perth & Kinross-shire,9.5253928
+Peterborough,32.051898699999995
+Plymouth Moor View,6.3234821
+Plymouth Sutton & Devonport,14.4500572
+"Pontefract, Castleford & Knottingley",5.8483524
+Pontypridd,4.900346
+Poole,12.1251946
+Poplar & Limehouse,50.0761009
+Portsmouth North,11.6403149
+Portsmouth South,21.8688713
+Preston,21.6283834
+Putney,39.80906
+Queen's Park & Maida Vale,48.6475926
+Rawmarsh & Conisbrough,4.1145019000000005
+Rayleigh & Wickford,4.6651093
+Reading Central,37.224984299999996
+Reading West & Mid Berkshire,14.675115
+Redcar,3.2423652999999995
+Redditch,10.5790639
+Reigate,16.6923558
+Rhondda & Ogmore,2.6067533
+Ribble Valley,6.683296899999999
+Richmond & Northallerton,6.750348600000001
+Richmond Park,34.6209875
+Rochdale,19.6179895
+Rochester & Strood,12.568179700000002
+Romford,21.7706172
+Romsey & Southampton North,14.000888400000001
+Rossendale & Darwen,4.6355284
+Rother Valley,3.8515468999999998
+Rotherham,11.4807605
+Rugby,18.5631239
+"Ruislip, Northwood & Pinner",33.0786256
+Runcorn & Helsby,4.9627058
+Runnymede & Weybridge,20.739044
+Rushcliffe,9.0059076
+Rutherglen,6.0307091
+Rutland & Stamford,8.3333282
+Salford,25.3887777
+Salisbury,10.752373700000001
+Scarborough & Whitby,6.5337404
+Scunthorpe,12.8914487
+Sefton Central,3.7789186000000003
+Selby,5.246949799999999
+Sevenoaks,11.7214143
+Sheffield Brightside & Hillsborough,20.1924401
+Sheffield Central,27.213286800000002
+Sheffield Hallam,9.0261806
+Sheffield Heeley,13.560303200000002
+Sheffield South East,11.5373864
+Sherwood Forest,4.8493810999999996
+Shipley,6.5187633
+Shrewsbury,7.3841959
+Sittingbourne & Sheppey,8.3134239
+Skipton & Ripon,5.5832953
+Sleaford & North Hykeham,6.2229383
+Slough,44.409357
+Smethwick,29.5620086
+Solihull West & Shirley,12.784004900000001
+South Antrim,6.295215800000001
+South Basildon & East Thurrock,11.886661400000001
+South Cambridgeshire,18.6212339
+South Cotswolds,8.5949428
+South Derbyshire,6.1194679
+South Devon,5.845936999999999
+South Dorset,6.2798495999999995
+South Down,6.6012897
+South East Cornwall,4.4168777
+South Holland & The Deepings,13.422682199999999
+South Leicestershire,5.1323837999999995
+South Norfolk,7.4696369
+South Northamptonshire,7.6841081
+South Ribble,4.4737376
+South Shields,5.1956992
+South Shropshire,4.067470699999999
+South Suffolk,5.7284604
+South West Devon,4.749283999999999
+South West Hertfordshire,18.5458754
+South West Norfolk,12.0017719
+South West Wiltshire,10.1494259
+Southampton Itchen,19.3905622
+Southampton Test,27.776462600000002
+Southend East & Rochford,12.7525699
+Southend West & Leigh,10.6429822
+Southgate & Wood Green,46.6693578
+Southport,8.784888399999998
+Spelthorne,20.8739221
+Spen Valley,6.354329
+St Albans,19.1330765
+St Austell & Newquay,5.1486739
+St Helens North,4.579474599999999
+St Helens South & Whiston,5.6841239
+St Ives,5.0303648
+St Neots & Mid Cambridgeshire,15.143916
+Stafford,8.7629657
+Staffordshire Moorlands,2.6155933
+Stalybridge & Hyde,7.259383
+Stevenage,15.6562383
+Stirling & Strathallan,9.387341199999998
+Stockport,11.590305500000001
+Stockton North,6.674903900000001
+Stockton West,5.266634
+Stoke-on-Trent Central,16.637728499999998
+Stoke-on-Trent North,9.661763
+Stoke-on-Trent South,7.3013016
+"Stone, Great Wyrley & Penkridge",3.6623581
+Stourbridge,7.479733500000001
+Strangford,4.565258399999999
+Stratford & Bow,47.806918100000004
+Stratford-on-Avon,9.0372783
+Streatham & Croydon North,40.1459621
+Stretford & Urmston,15.178745300000001
+Stroud,6.2406309
+Suffolk Coastal,7.1580322
+Sunderland Central,9.141372200000001
+Surrey Heath,16.7089604
+Sussex Weald,7.546850699999999
+Sutton & Cheam,30.785225500000003
+Sutton Coldfield,10.274868600000001
+Swansea West,13.928189099999999
+Swindon North,15.2251504
+Swindon South,26.8718042
+Tamworth,6.622178400000001
+Tatton,7.999870400000001
+Taunton & Wellington,10.8664328
+Telford,11.059495
+Tewkesbury,9.4956038
+The Wrekin,10.3423172
+Thirsk & Malton,5.1052291
+Thornbury & Yate,6.1805176
+Thurrock,26.377774799999997
+Tipton & Wednesbury,16.8178253
+Tiverton & Minehead,5.8229982
+Tonbridge,9.4915688
+Tooting,34.0868882
+Torbay,8.0355609
+Torfaen,3.5599508
+Torridge & Tavistock,4.2692002
+Tottenham,50.674029499999996
+Truro & Falmouth,6.937687100000001
+Tunbridge Wells,13.9260743
+Twickenham,25.6394781
+Tynemouth,5.3587383
+Upper Bann,12.2692942
+Uxbridge & South Ruislip,32.8161134
+Vale of Glamorgan,5.1211012
+Vauxhall & Camberwell Green,44.0216695
+Wakefield & Rothwell,13.4086423
+Wallasey,4.6328698
+Walsall & Bloxwich,21.961772099999997
+Walthamstow,40.739106899999996
+Warrington North,9.198704900000001
+Warrington South,9.9618006
+Warwick & Leamington,18.6372316
+Washington & Gateshead South,3.5662414000000004
+Watford,33.2244631
+Waveney Valley,5.3587888
+Weald of Kent,7.1545209
+Wellingborough & Rushden,17.306711999999997
+Wells & Mendip Hills,6.5862974
+Welwyn Hatfield,22.460585899999998
+West Aberdeenshire & Kincardine,8.0151873
+West Bromwich,24.145294
+West Dorset,6.940821999999999
+West Dunbartonshire,4.603029
+West Ham & Beckton,52.246219599999996
+West Lancashire,6.1849587999999995
+West Suffolk,19.3413162
+West Tyrone,7.4468746
+West Worcestershire,5.607521500000001
+Westmorland & Lonsdale,6.1868895
+Weston-super-Mare,10.396490499999999
+Wetherby & Easingwold,5.1333591
+Whitehaven & Workington,2.8425836
+Widnes & Halewood,4.4101317
+Wigan,7.394743600000001
+Wimbledon,38.072742999999996
+Winchester,11.6322586
+Windsor,26.118622199999997
+Wirral West,4.7255195
+Witham,6.538496100000001
+Witney,10.630426799999999
+Woking,24.1949176
+Wokingham,15.7064448
+Wolverhampton North East,16.3513036
+Wolverhampton South East,20.9109295
+Wolverhampton West,25.340151
+Worcester,12.7867049
+Worsley & Eccles,11.119424799999999
+Worthing West,10.896768100000001
+Wrexham,9.1232372
+Wycombe,24.835637100000003
+Wyre Forest,4.972198199999999
+Wythenshawe & Sale East,16.814931
+Yeovil,9.6867396
+Ynys Môn,3.3322513
+York Central,14.2730205
+York Outer,6.6847359
