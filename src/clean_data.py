@@ -9,12 +9,12 @@ PROCESSED.mkdir(parents=True, exist_ok=True)
 
 # Election data
 election = pd.read_csv(RAW / "HoC-GE2024-results-by-constituency.csv")
-election = election[["Constituency name", "Valid votes", "RUK"]].copy()
+election = election[["Constituency name", "Country name", "Valid votes", "RUK"]].copy()
 election["reform_vote_share"] = 100 * election["RUK"] / election["Valid votes"]
+election["is_scotland"] = (election["Country name"] == "Scotland").astype(int) # Scottish setas behave differently, so adding a dummy
 election = election.rename(columns={"Constituency name": "constituency"})
-election = election[["constituency", "reform_vote_share"]]
+election = election[["constituency", "reform_vote_share", "is_scotland"]]
 election.to_csv(PROCESSED / "reform_vote_share.csv", index=False)
-
 
 # Brexit estimates (2024 boundaries)
 brexit = pd.read_csv(RAW / "2016_Brexit_referendum_estimates_on_2024_boundaries.csv")
@@ -25,7 +25,6 @@ if brexit["leave_vote_share"].max() <= 1:
     brexit["leave_vote_share"] *= 100
 brexit = brexit.dropna(subset=["leave_vote_share"])
 brexit.to_csv(PROCESSED / "leave_vote_share.csv", index=False)
-
 
 # Education - degree share
 def extract_education(sheet_name, category_col, category_value):
@@ -41,7 +40,6 @@ edu_ni = extract_education("NI_constituencies", "groups", "Higher education qual
 edu_scotland = extract_education("Scotland_Constituencies", "Groups", "Degree level qualifications or above")
 education = pd.concat([edu_ew, edu_ni, edu_scotland], ignore_index=True)
 education.to_csv(PROCESSED / "degree_pct.csv", index=False)
-
 
 # Median age
 age_raw = pd.read_excel(RAW / "CBP-10529.xlsx", sheet_name="Single year of age")
@@ -61,13 +59,11 @@ median_age = (
 median_age = median_age.rename(columns={"con_name": "constituency"})
 median_age.to_csv(PROCESSED / "median_age.csv", index=False)
 
-
 # Median weekly wage
 wages = pd.read_excel(RAW / "CBP-10524.xlsx", sheet_name="Data")
 wages = wages[["ConstituencyName", "Constituency"]].copy()
 wages = wages.rename(columns={"ConstituencyName": "constituency", "Constituency": "median_weekly_wage"})
 wages.to_csv(PROCESSED / "median_weekly_wage.csv", index=False)
-
 
 # Claimant rate
 claimant = pd.read_excel(RAW / "claimant_count_2026-03-19_09-29-28.xlsx", sheet_name="Sheet 1")
@@ -76,7 +72,6 @@ claimant = claimant.rename(columns={"ConstituencyName": "constituency", "Constit
 claimant["claimant_rate"] = claimant["claimant_rate"] * 100
 claimant.to_csv(PROCESSED / "claimant_rate.csv", index=False)
 
-
 # Foreign-born share (EU + rest of world)
 birth = pd.read_excel(RAW / "country_of_birth_census.xlsx", sheet_name="Constituency - groups")
 birth = birth[birth["groups"].isin(["European Union", "Rest of world"])].copy()
@@ -84,7 +79,6 @@ birth = birth.groupby("ConstituencyName", as_index=False)["con_pc"].sum()
 birth = birth.rename(columns={"ConstituencyName": "constituency", "con_pc": "foreign_born_pct"})
 birth["foreign_born_pct"] = birth["foreign_born_pct"] * 100
 birth.to_csv(PROCESSED / "foreign_born_pct.csv", index=False)
-
 
 # Population density
 population = age_raw.groupby("con_name", as_index=False)["con_number"].sum()
@@ -101,7 +95,6 @@ density["population_density"] = density["population"] / density["area_sq_km"]
 density = density[["constituency", "population", "area_sq_km", "population_density"]]
 density.to_csv(PROCESSED / "population_density.csv", index=False)
 
-
 # Ethnic minority share
 ethnicity = pd.read_excel(RAW / "CBP-10566.xlsx", sheet_name="Ethnic groups - broad")
 ethnicity = ethnicity[ethnicity["groups"] == "White"].copy()
@@ -110,13 +103,11 @@ ethnicity = ethnicity[["ConstituencyName", "ethnic_minority_pct"]].copy()
 ethnicity = ethnicity.rename(columns={"ConstituencyName": "constituency"})
 ethnicity.to_csv(PROCESSED / "ethnic_minority_pct.csv", index=False)
 
-
 # Deprivation score (IMD)
 imd = pd.read_csv(RAW / "parl24_imd.csv")
 imd = imd[["constituency-name", "parl25-deprivation-score"]].copy()
 imd = imd.rename(columns={"constituency-name": "constituency", "parl25-deprivation-score": "deprivation_score"})
 imd.to_csv(PROCESSED / "deprivation_score.csv", index=False)
-
 
 # Merge all into model dataset
 def clean_name(s):
@@ -158,7 +149,11 @@ for name, df in dfs.items():
 model_data = model_data.drop(columns=["constituency_key", "population", "area_sq_km"])
 model_data = model_data.dropna()
 
-print(model_data.shape)
-print(model_data.isna().sum())
+# remove constituencies where Reform did not stand a candidate
+# as these have reform_vote_share = 0 not because voters didnt vote Reform but because Reform was not on the ballot
+n_before = len(model_data)
+model_data = model_data[model_data["reform_vote_share"] > 0]
+print(f"Removed {n_before - len(model_data)} zero-vote constituencies (Reform not on ballot)")
+print(f"Final dataset: {model_data.shape[0]} constituencies, {model_data.shape[1]} columns")
 
 model_data.to_csv(PROCESSED / "model_data.csv", index=False)
