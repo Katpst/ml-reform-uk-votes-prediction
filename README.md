@@ -1,204 +1,120 @@
-# Reform UK Vote Prediction — Machine Learning Project
+# Reform UK Vote Prediction - Machine Learning Project
 
-## Project Overview
+## Overview
 
-This project investigates the rise of Reform UK by using machine learning models to predict Reform UK vote share across UK constituencies.
+This project investigates the rise of Reform UK by using machine learning to predict Reform UK vote share across UK constituencies. The aim is to assess whether demographic, economic and political characteristics can explain differences in Reform UK support.
 
-The objective is not to take a political position, but to analyze whether demographic, economic and political characteristics can help explain variations in Reform UK support.
+The project covers exploratory data analysis, predictive modelling and model interpretation.
 
-The project combines:
-- exploratory data analysis,
-- predictive modelling,
-- model interpretation,
-- and political/economic analysis.
+## Research Question
 
----
+Which demographic, economic and political factors best explain support for Reform UK across UK constituencies?
 
-# Research Question
+## Dataset
 
-> Which demographic, economic and political factors best explain support for Reform UK across UK constituencies?
+Each observation corresponds to a UK constituency. Constituencies where Reform did not have a candidate are dropped, as a zero vote share there reflects candidacy absence rather than voter choice.
 
----
+**Target variable**
+- `reform_vote_share` - Reform UK vote share (%)
 
-# Dataset
+**Explanatory variables**
+- `leave_vote_share` - 2016 Brexit Leave vote share (%)
+- `degree_pct` - share of residents with higher education qualifications (%)
+- `median_age` - constituency median age
+- `median_weekly_wage` - median gross weekly wage (£)
+- `claimant_rate` - claimant count rate (%)
+- `log_foreign_born_pct` - log-transformed foreign-born share
+- `log_population_density` - log-transformed population density
+- `ethnic_minority_pct` - ethnic minority share (%)
+- `deprivation_score` - IMD-based deprivation score
+- `is_scotland` - binary indicator for Scottish constituencies
 
-Each observation corresponds to a UK constituency.
+**Final sample size:** 607 constituencies
 
-## Target Variable
-- `reform_vote_share` → Reform UK vote share (%)
+## Methodology
 
-## Explanatory Variables
-- `leave_vote_share`
-- `degree_pct`
-- `median_age`
-- `median_weekly_wage`
-- `claimant_rate`
-- `foreign_born_pct`
-- `population_density`
-- `ethnic_minority_pct`
-- `deprivation_score`
+### 1. Exploratory Data Analysis
+- descriptive statistics and distribution analysis
+- correlation matrix and bivariate scatterplots
+- VIF check revealing severe multicollinearity 
+- Brexit x education interaction analysis
 
-The dataset contains:
-- 630 constituencies
-- no missing values
+### 2. Models
 
----
+**Champion chosen: Lasso**
+Chosen over OLS because VIF values reached 175, making standard regression coefficients unstable. Lasso addresses multicollinearity through L1 regularisation, achieving a cross-validated R² of 0.843 with an overfitting gap of -0.003. The small gains from Random Forest and Gradient Boosting (0.006-0.009 in cross-validated R²) did not justify the added complexity given the size of the dataset and the importance of interpretability.
 
-# Methodology
+**Challenger 1: Linear Regression (VIF-reduced)**
+As a benchmark, variables were removed iteratively until all VIF values were below 10. This process led to leave_vote_share being excluded, leaving a four-variable demographic model with a cross-validated R² of 0.730. This model was included to compare manual variable selection with Lasso's automatic regularisation.
 
-The project follows a standard machine learning workflow:
+**Challenger 2: Random Forest**
+Achieved highest test R² (0.881) but also showed an overfitting gap of 0.029, more than twice that of Gradient Boosting's. Shows the potential risk of complex ensemble methods on a relatively small dataset.
 
-## 1. Exploratory Data Analysis (EDA)
-- descriptive statistics
-- histograms
-- correlation analysis
-- scatterplots
-- residual analysis
+**Challenger 3: Gradient Boosting**
+Best overall (CV R² = 0.849, gap = 0.012) and closest competitor to Lasso. However, the marginal CV gain (0.006) does not justify the added complexity or lower interpretability. XGBoost was also tested (CV R² = 0.845, overfitting gap = 0.018) but performed slightly worse than Gradient Boosting and was excluded from the final comparison.
 
-## 2. Machine Learning Models
-The following models are estimated:
-- Linear Regression
-- Random Forest
-- Gradient Boosting
-- XGBoost
+### 3. Model Evaluation
+All models evaluated using R², MAE, RMSE and 5-fold cross-validation. Champion selection based on CV R² and extend of overfitting, not test R².
 
-## 3. Model Evaluation
-Models are evaluated using:
-- R²
-- MAE
-- RMSE
-- 5-fold cross-validation
+### 4. Hyperparameter Tuning
+GridSearchCV was used to tune the Random Forest and Gradient Boosting models.
 
-## 4. Hyperparameter Tuning
-GridSearchCV is used to optimize:
-- Random Forest
-- Gradient Boosting
-- XGBoost
+## Main Findings
 
-## 5. Model Interpretation
-Interpretability techniques include:
-- standardized coefficients
-- feature importance
-- SHAP values
-- residual analysis
+- The 2016 Brexit Leave vote is the strongest single predictor of Reform UK support (r = 0.88), suggesting substantial continuity between the Brexit electorate and Reform UK voters.
+- Education is the second most important predictor (r = -0.69). Lower degree share consistently predicts higher support for Reform UK.
+- The claimant rate shows little relationship with Reform support (r = -0.08, p = 0.060), indicating that unemployment alone does not explain variation in vote share.
+- VIF analysis reveals that leave_vote_share is highly correlated with the demographic variables and is excluded when variables are removed iteratively to reduce multicollinearity.
 
----
+## Repository Structure
 
-# Main Findings
-
-The results suggest that:
-- Brexit Leave vote share is one of the strongest predictors of Reform UK support;
-- educational attainment is negatively associated with Reform UK vote share;
-- ensemble methods outperform the linear regression baseline;
-- non-linear relationships contribute to explaining Reform UK support.
-
-The project also highlights that:
-- some constituencies remain difficult to predict,
-- indicating that local political dynamics and omitted variables may still play an important role.
-
----
-
-# Repository Structure
-
-```text
+```
 .
 ├── data/
 │   ├── raw/
 │   └── processed/
-│
 ├── outputs/
-│   ├── figures
-│   └── model outputs
-│
+│   ├── figures/
+│   └── model outputs/
 ├── src/
 │   ├── clean_data.py
 │   └── notebooks/
+│       ├── reform_UK_analysis.ipynb  # EDA
 │       ├── 02_models.ipynb
-│       ├── 03_results.ipynb
-│       └── reform_UK_analysis.ipynb
-│
+│       └── 03_results.ipynb
 ├── requirements.txt
 └── README.md
 ```
 
----
-
-# Installation
-
-Clone the repository:
+## Installation
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
-cd REPOSITORY
-```
-
-Create a virtual environment:
-
-```bash
+git clone https://github.com/Katpst/ml-reform-uk-votes-prediction.git
+cd ml-reform-uk-votes-prediction
 python -m venv venv
-```
-
-Activate the environment:
-
-### Windows
-```bash
-.\venv\Scripts\Activate.ps1
-```
-
-Install dependencies:
-
-```bash
+.\venv\Scripts\Activate.ps1   # Windows
 pip install -r requirements.txt
 ```
 
----
-
-# Running the Project
-
-Launch Jupyter Notebook:
+## Running the project
 
 ```bash
 jupyter notebook
 ```
 
-Main notebooks:
-- `reform_UK_analysis.ipynb`
-- `02_models.ipynb`
-- `03_results.ipynb`
+Run notebooks in order: `reform_UK_analysis.ipynb` + `02_models.ipynb` + `03_results.ipynb`
 
----
+## Limitations
 
-# Limitations
+- Constituencies where Reform UK did not field a candidate were excluded, which may introduce selection bias.
+- Local candidate quality and campaign intensity are not captured in the dataset.
+- Correlation does not imply causation; the project focuses on prediction rather than causal inference.
+- Some relevant variables may have been omitted.
 
-This project has several limitations:
-- constituency-level data does not reflect individual-level behaviour;
-- correlation does not imply causation;
-- local political dynamics may not be fully captured;
-- some relevant variables may be omitted;
-- the project focuses on prediction rather than causal inference.
+## Technologies
 
----
+Python, pandas, NumPy, scikit-learn, matplotlib, seaborn, SHAP, Jupyter Notebook
 
-# Technologies Used
+## Authors
 
-- Python
-- pandas
-- NumPy
-- scikit-learn
-- XGBoost
-- matplotlib
-- SHAP
-- Jupyter Notebook
-
----
-
-# Authors
-- Katarzyna Pastuszka
-- Hanane Larbi
-
-
----
-
-# Academic Context
-
-This project was developed as part of a Machine Learning course focusing on applied predictive modelling and model interpretation using real-world data.
+Katarzyna Pastuszka, Hanane Larbi
