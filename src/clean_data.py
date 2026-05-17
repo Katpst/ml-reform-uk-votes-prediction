@@ -48,7 +48,7 @@ def weighted_median_age(group):
     group = group.sort_values("age").copy()
     total_pop = group["con_number"].sum()
     group["cum_pop"] = group["con_number"].cumsum()
-    return group.loc[group["cum_pop"] >= total_pop / 2, "age"].iloc[0]
+    return group.loc[group["cum_pop"] >= total_pop/2, "age"].iloc[0]
 
 median_age = (
     age_raw
@@ -60,13 +60,13 @@ median_age = median_age.rename(columns={"con_name": "constituency"})
 median_age.to_csv(PROCESSED / "median_age.csv", index=False)
 
 # Median weekly wage
-wages = pd.read_excel(RAW / "CBP-10524.xlsx", sheet_name="Data")
+wages = pd.read_excel(RAW / "ONS-median-wages.xlsx", sheet_name="Data")
 wages = wages[["ConstituencyName", "Constituency"]].copy()
 wages = wages.rename(columns={"ConstituencyName": "constituency", "Constituency": "median_weekly_wage"})
 wages.to_csv(PROCESSED / "median_weekly_wage.csv", index=False)
 
 # Claimant rate
-claimant = pd.read_excel(RAW / "claimant_count_2026-03-19_09-29-28.xlsx", sheet_name="Sheet 1")
+claimant = pd.read_excel(RAW / "claimant_count.xlsx", sheet_name="Sheet 1")
 claimant = claimant[["ConstituencyName", "Constituency rate"]].copy()
 claimant = claimant.rename(columns={"ConstituencyName": "constituency", "Constituency rate": "claimant_rate"})
 claimant["claimant_rate"] = claimant["claimant_rate"] * 100
