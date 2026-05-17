@@ -1,4 +1,6 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
-data/raw/PCON_JULY_2024_UK_BFC.*
+data/raw/PCON_JULY_2024_UK_BFC.shp
+data/raw/PCON_JULY_2024_UK_BFC.dbf
+data/raw/PCON_JULY_2024_UK_BFC.shx
